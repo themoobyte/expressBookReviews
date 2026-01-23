@@ -1,12 +1,2 @@
-Command: curl -X POST http://localhost:5001/customer/login -H "Content-Type: application/json" -d '{"username":"finaluser","password":"finalpass"}'
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Error</title>
-</head>
-<body>
-<pre>Cannot POST /customer/login</pre>
-</body>
-</html>
+curl -X POST http://localhost:5001/customer/login -H "Content-Type: application/json" -d '{"username":"loginuser","password":"loginpass"}'
+{"message":"Login successful"}
