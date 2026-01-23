@@ -1,0 +1,3 @@
+Command: curl -X POST http://localhost:5001/register -H "Content-Type: application/json" -d '{"username":"finaluser","password":"finalpass"}'
+
+{"message":"User already exists"}

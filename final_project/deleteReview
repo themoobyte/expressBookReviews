@@ -1,0 +1,12 @@
+Command: curl -X DELETE http://localhost:5001/customer/auth/review/1 -b cookies.txt
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot DELETE /customer/auth/review/1</pre>
+</body>
+</html>
